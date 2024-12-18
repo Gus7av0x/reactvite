@@ -47,3 +47,7 @@ coverage/
 
 # Git
 .gitignore
+
+# Ignorar dist, exceto no repositório
+/dist/*
+!/dist/.gitkeep

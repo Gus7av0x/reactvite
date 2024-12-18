@@ -16,7 +16,70 @@ body {
   }
   
   button {
-    background-color: #007bff;
+    background-color: #007bff;body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        color: #343a40; /* Defina uma cor escura para o texto */
+    }
+    
+    .app {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    h1 {
+        color: #343a40; /* Garante que o título tenha um contraste adequado */
+    }
+    
+    button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .container {
+        background: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .alert {
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    
+    .alert.success {
+        background-color: #28a745; /* Verde para sucesso */
+        color: #fff; /* Certifique-se de que o texto seja branco */
+    }
+    
+    .alert.error {
+        background-color: #dc3545; /* Vermelho para erro */
+        color: #fff; /* Texto branco */
+    }
+    
     color: white;
     border: none;
     padding: 10px 15px;
@@ -38,7 +101,7 @@ body {
   }
   
   .container {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
